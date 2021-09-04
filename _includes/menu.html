@@ -1,2 +1,7 @@
 <a href="">Item1</a>
 <a href="">Item2</a>
+{% for item in site.menu %}
+  <a href="{{item.url}}">{{item.title}}</a>
+ - {{ team_member.name }}, role: {{ team_member.role }}
+{% endfor %}
+
