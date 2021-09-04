@@ -1,5 +1,6 @@
 encoding: utf-8
 sass:
+  sass_dir: _sass
   style: compressed
 permalink: pretty
 excerpt_separator: <!-- more -->
