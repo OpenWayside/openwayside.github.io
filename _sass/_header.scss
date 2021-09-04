@@ -11,7 +11,7 @@
 }
 
 .nav #menu {
-	float: left;
+	float: right;
 	padding-left: 1em;
 }
 
@@ -28,16 +28,4 @@
 
 .nav #menu a:last-child::after {
 	display: none;
-}
-
-
-
-.nav #avatar {
-    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    background-position: top center;
-    border-radius: 50%;
-	float: right;
 }
