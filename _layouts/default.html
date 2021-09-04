@@ -26,7 +26,13 @@
 		<link rel="apple-touch-icon" sizes="1024x1024" href="{{ site.baseurl}}/assets/images/icon@1024px.png">
 		<link rel="shortcut icon" type="image/svg+xml" href="{{ site.baseurl}}/assets/images/icon.svg">
 		
-		<title>{{ site.title }}</title>
+		
+		{% if page.title %}
+		{% capture fullTitle %}{{ site.title | default: site.github.repository_name }} - {{ page.title }}{% endcapture %}
+		<title>{{ fullTitle }}</title>
+		{% else %}
+		<title>{{  site.title | default: site.github.repository_name }}</title>
+		{% endif %}
 	</head>
 	<body>
 		<div class="nav">
