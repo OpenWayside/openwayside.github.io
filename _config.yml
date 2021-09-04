@@ -1,1 +1,14 @@
+encoding: utf-8
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: America/New_York
 
+menu:
+- title: Home
+  url: /
+- title: Solutions
+  url: /solutions/
+- title: Search
+  url: /Search/
