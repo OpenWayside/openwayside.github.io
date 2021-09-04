@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>        
+    <link rel="stylesheet" href="{{ "/asset/styles.css" | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon.png"  | absolute_url }}">
+  </head>
+	<body>
+		<div class="body">
+			<div class="nav">
+				<div id="logo"></div>
+				<div id="menu">
+					<a href="">Item1</a>
+					<a href="">Item2</a>
+				</div>
+			</div>
+			<div class="backdrop">
+				<div id="content">
+          {{ content }}
+        </div>
+			</div>
+			<div class="foot">
+				{% include footer.html %}
+			</div>
+		</div>		
+	</body>
+</html>
