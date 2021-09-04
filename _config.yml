@@ -6,6 +6,8 @@ permalink: pretty
 excerpt_separator: <!-- more -->
 timezone: America/New_York
 
+title: Open Wayside
+
 menu:
 - title: Home
   url: /
