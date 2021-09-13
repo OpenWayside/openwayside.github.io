@@ -62,7 +62,7 @@ form
 }
 .tipue_search_right
 {
-     float: 1;
+     width:100%;
      display: flex;
 }
 
