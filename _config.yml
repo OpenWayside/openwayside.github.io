@@ -8,10 +8,14 @@ timezone: America/New_York
 
 title: Open Wayside
 
+tipue_search:
+  include:
+    pages: true
+
 menu:
 - title: Home
   url: /
 - title: Solutions
   url: /solutions/
 - title: Search
-  url: /Search/
+  url: /search/
