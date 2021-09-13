@@ -11,6 +11,11 @@ title: Open Wayside
 tipue_search:
   include:
     pages: true
+    collections: [solutions, ]
+  exclude:
+    files: [search.html, index.md]
+    tags: []
+    categories: []
 
 menu:
 - title: Home
