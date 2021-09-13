@@ -4,6 +4,9 @@ html{
 	height: -webkit-fill-available;
 	font-family:'Gill Sans MT Condensed', sans-serif;
 	font-size:25px;
+	line-height: 1.15; /* 2 */
+	-ms-text-size-adjust: 100%; /* 3 */
+	-webkit-text-size-adjust: 100%; /* 3 */
 }
 
 body {
