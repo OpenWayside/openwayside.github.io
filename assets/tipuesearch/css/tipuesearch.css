@@ -33,13 +33,16 @@ http://www.tipue.com/search
 
 
 /* search box */
-
+form 
+{
+	display: flex;
+	flex-direction: column;
+}
 
 #tipue_search_input
 {
      color: #333;
-     max-width: 210px;
-	padding: 17px;
+     width: 100%;
 	border: 1px solid #e3e3e3;
 	border-radius: 0;
 	-moz-appearance: none;
@@ -55,12 +58,12 @@ http://www.tipue.com/search
 }
 .tipue_search_left
 {
-     float: left;
-     padding: 15px 9px 0 0;
+     padding: 7px 6px 0 0;
 }
 .tipue_search_right
 {
-     float: left;
+     float: 1;
+     display: flex;
 }
 
 
