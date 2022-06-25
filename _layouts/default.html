@@ -9,7 +9,7 @@
 		{% endif %}
 
 		<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-		<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
+		<!-- <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}"> -->
 		<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gill-sans-mt-condensed" >
 
 		{% include icons.html %}	
@@ -35,8 +35,6 @@
 					{% for item in site.menu %}
 					<li><a href="{{item.url}}">{{item.title}}</a><li>
 					{% endfor %}
-					<li>test</li>
-					<li>test2</li>
 				</ul>
 			</nav>
 		</section>
