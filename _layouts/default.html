@@ -9,7 +9,7 @@
 		{% endif %}
 
 		<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-		<!-- <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}"> -->
+		<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
 		<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gill-sans-mt-condensed" >
 
 		{% include icons.html %}	
@@ -25,7 +25,7 @@
 	<body>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<section class="top-nav">
-			<a href=""><div class="logo"></div></a>
+			<a href="/"><div class="logo"></div></a>
 			<nav>
 				<input id="menu-toggle" type="checkbox" />
 				<label class='menu-button-container' for="menu-toggle">
@@ -38,9 +38,9 @@
 				</ul>
 			</nav>
 		</section>
-		<div class="content">
+		<section class="content">
 			{{ content }}
-		</div>
+		</section>
 		<section class="footer">
 			{% include footer.html %}
 		</section>
