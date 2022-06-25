@@ -11,7 +11,7 @@ title: Open Wayside
 tipue_search:
   include:
     pages: true
-    collections: [solutions,libraries]
+    collections: [library]
   exclude:
     files: [search.html, index.md]
     tags: []
@@ -23,6 +23,6 @@ menu:
 - title: Solutions
   url: /solutions/
 - title: Libraries
-  url: /libraries/
+  url: /library/
 - title: Search
   url: /search/
