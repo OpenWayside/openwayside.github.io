@@ -23,11 +23,25 @@
 		{% endif %}
 	</head>
 	<body>
-		{% include header.html %}
-		<div class="backdrop">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<section class="top-nav">
+			<a href=""><div class="logo"></div></a>
+			<nav>
+				<input id="menu-toggle" type="checkbox" />
+				<label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+				</label>
+				<ul class="menu">
+					{% for item in site.menu %}
+					<li><a href="{{item.url}}">{{item.title}}</a><li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</section>
+		<Section class="content">
 			{{ content }}
 		</div>
-		<div class="foot">
+		<Section class="footer">
 			{% include footer.html %}
 		</div>
 	</body>
