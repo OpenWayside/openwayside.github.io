@@ -30,6 +30,16 @@
   text-decoration:none
 }
 
+.menu > li > a::after {
+  content: "|";
+  padding-left: .25em;
+  color: #FFF;
+}
+
+.menu > li > a:last-child::after {
+display: none;
+}
+
 .menu-button-container {
   display: none;
   height: 100%;
