@@ -5,9 +5,9 @@ layout: default
 
 {%- for collection in site.collections | where: "label", "library" -%}
     {{ collection.label }}<br />
-    {{ collection.docs }}<br /><br /><br />
+    {%- for post in collection.docs -%}
+        {{post.title}} - {{post.url}}<br />
+    {%- endfor -%}
 {%- endfor -%}
 
-{% for page in site.pages %}
-    {{ page }}<br /><br /><br />
-{% endfor %}
+
