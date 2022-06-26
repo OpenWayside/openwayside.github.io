@@ -14,7 +14,6 @@ collections:
 tipue_search:
   include:
     pages: true
-    collections: [library]
   exclude:
     files: [search.html, index.md]
     tags: []
