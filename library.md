@@ -9,5 +9,17 @@ layout: default
         {{post.title}} - {{post.url}}<br />
     {%- endfor -%}
 {%- endfor -%}
+<br />
+<br />
+<br />
 
+{%- for lib in site.library -%}
+    {{lib.title}} - {{lib.url}}<br />
+{%- endfor -%}
+<br />
+<br />
+<br />
 
+{%- for lib in site.pages -%}
+    {{lib.title}} - {{lib.url}}<br />
+{%- endfor -%}
