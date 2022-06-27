@@ -20,11 +20,7 @@ tipue_search:
     categories: []
 
 menu:
-- title: Home
-  url: /
 - title: Solutions
   url: /solutions/
 - title: Libraries
   url: /library/
-- title: Search
-  url: /search/

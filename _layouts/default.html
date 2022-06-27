@@ -32,9 +32,11 @@
 				<div class='menu-button'></div>
 				</label>
 				<ul class="menu">
+					<li><a href="/">Home</a></li>
 					{% for item in site.menu %}
 					<li><a href="{{item.url}}">{{item.title}}</a></li>
 					{% endfor %}
+					<li><a href="/search/">Search</a></li>
 				</ul>
 			</nav>
 		</section>
