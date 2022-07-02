@@ -8,9 +8,6 @@ timezone: America/New_York
 
 title: Open Wayside
 
-collections:
-  - library
-
 tipue_search:
   include:
     pages: true

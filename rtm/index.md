@@ -20,6 +20,6 @@ layout: default
 <br />
 <br />
 
-{%- for lib in site.pages -%}
+{%- for lib in site.pages | Where "dir", "/rtm/" -%}
     {{lib.title}} - {{lib.url}} - {{lib.dir}} - {{lib.name}}<br />
 {%- endfor -%}
