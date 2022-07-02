@@ -5,15 +5,12 @@ layout: default
 
 {%- for lib in site.pages -%}
     {%- assign dirParts = lib.dir | split: "/" -%}
-    name = {{lib.name}}<br />
-    dirParts.count = {{dirParts.size}}<br />
     {%- if dirParts.size == 3 -%}
-        part0 = {{dirParts[0]}}<br />
-        part1 = {{dirParts[1]}}<br />
+        BaseDir = {{dirParts[1]}}<br />
         part2 = {{dirParts[2]}}<br />
+        {%- assign lib.title = dirParts[2] -%}
         {%- if dirParts[1] == "rtm" -%}        
             title = {{lib.title}}<br />
-            id = {{lib.id}}<br />
             dir = {{lib.dir}}<br />
             name = {{lib.name}}<br />
             path = {{lib.path}}<br />
