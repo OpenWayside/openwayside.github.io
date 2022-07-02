@@ -21,5 +21,5 @@ layout: default
 <br />
 
 {%- for lib in site.pages -%}
-    {{lib.title}} - {{lib.url}}<br />
+    {{lib.title}} - {{lib.url}} - {{lib.dir}} - {{lib.name}}<br />
 {%- endfor -%}
