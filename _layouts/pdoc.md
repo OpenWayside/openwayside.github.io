@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-<style>{% include "pdoc.css" %}</style>
+<style>{% include pdoc.css %}</style>
 {{ content }}
