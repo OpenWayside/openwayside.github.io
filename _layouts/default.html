@@ -24,14 +24,14 @@
 	</head>
 	<body>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<section class="top-nav">
+		<section class="rift-top-bar">
 			<a href="/">{% include header_logo.html %}</div></a>
-			<nav>
+			<nav class="rift-nav">
 				<input id="menu-toggle" type="checkbox" />
-				<label class='menu-button-container' for="menu-toggle">
-				<div class='menu-button'></div>
+				<label class='rift-nav-menu-button-container' for="menu-toggle">
+				<div class='rift-nav-menu-button'></div>
 				</label>
-				<ul class="menu">
+				<ul class="rift-nav-menu">
 					<li><a href="/">Home</a></li>
 					{% for item in site.menu %}
 					<li><a href="{{item.url}}">{{item.title}}</a></li>
