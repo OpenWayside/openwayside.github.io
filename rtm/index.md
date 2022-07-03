@@ -10,5 +10,14 @@ layout: default
         {%- if baseDir == "rtm" -%}      
             <a href="{{lib.url}}">{{title}}</a><br />
         {%- endif -%}
+    {%- elsif dirParts.size == 4 -%}
+        {%- assign baseDir = dirParts[1] -%}
+        {%- assign title = dirParts[2] -%}
+        {%- assign file = dirParts[3] -%}
+        {%- if baseDir == "rtm" -%}
+            {%- if file == "index.html" or file == "index.md" or file == "readme.md" -%}  
+                <a href="{{lib.url}}">{{title}}</a><br />
+            {%- endif -%}
+        {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
