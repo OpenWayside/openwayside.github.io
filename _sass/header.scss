@@ -67,7 +67,7 @@
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .rift-nav-menu-button-container rift-nav-menu-button::before {
+#menu-toggle:checked + .rift-nav-menu-button-container .rift-nav-menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
