@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-<style>{% include pdoc.css %}</style>
+<link rel="stylesheet" href="{{ "/assets/pdoc.css" | relative_url }}">
 {{ content }}
