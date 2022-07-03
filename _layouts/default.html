@@ -27,8 +27,8 @@
 		<section class="rift-top-bar">
 			<a href="/">{% include header_logo.html %}</div></a>
 			<nav class="rift-nav">
-				<input id="menu-toggle" type="checkbox" />
-				<label class='rift-nav-menu-button-container' for="menu-toggle">
+				<input id="rift-menu-toggle" type="checkbox" />
+				<label class='rift-nav-menu-button-container' for="rift-menu-toggle">
 				<div class='rift-nav-menu-button'></div>
 				</label>
 				<ul class="rift-nav-menu">
@@ -40,10 +40,10 @@
 				</ul>
 			</nav>
 		</section>
-		<section class="content">
+		<section class="rift-content">
 			{{ content }}
 		</section>
-		<section class="footer">
+		<section class="rift-footer">
 			{% include footer.html %}
 		</section>
 	</body>
