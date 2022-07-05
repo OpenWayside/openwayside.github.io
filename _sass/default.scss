@@ -9,6 +9,10 @@ html{
 	background-image: linear-gradient(to top left, #4b4545 35%, rgba(51,102,153,0.5886729692) 50%, #4b4545 65%);
 	background-attachment: fixed;
 	height: -webkit-fill-available;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 body {
