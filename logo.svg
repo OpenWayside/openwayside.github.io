@@ -41,14 +41,14 @@
 			font-family:"Gill Sans MT Condensed";
 			font-size:28px;
 			line-height:1.25;
-			letter-spacing:-.85;			
+			letter-spacing:-.85px;			
 			fill:#666666;
 			stroke-width:0.264583;
 		}
 	</style>
 	<text
 		id="open-o"
-		x="-22"
+		x="-24"
 		y="20"
 		dominant-baseline="middle"
 		text-anchor="start"
@@ -56,7 +56,7 @@
 		>C</text> 
 	<text
 		id="wayside"
-		x="20"
+		x="22"
 		y="19"
 		dominant-baseline="middle"
 		text-anchor="start"
