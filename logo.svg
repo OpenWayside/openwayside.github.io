@@ -6,9 +6,8 @@
 		text {
 			font-style:normal;
 			font-weight:normal;
-			word-spacing:0px;
+			word-spacing:0;
 			fill-opacity:1;
-			stroke:none;
 		}
 		#open-o {
 			font-family:forte;
@@ -21,7 +20,7 @@
 			font-family:Gill Sans MT Condensed;
 			font-size:28px;
 			line-height:1.25;
-			letter-spacing:-.85px;			
+			letter-spacing:-.85;			
 			fill:#666666;
 			stroke-width:0.264583;
 		}
@@ -37,7 +36,7 @@
 	<text
 		id="wayside"
 		x="20"
-		y="20"
+		y="19"
 		dominant-baseline="middle"
 		text-anchor="start"
 		>Wayside</text>
