@@ -39,6 +39,10 @@
 			fill:#f7b500;
 		}
 		#wayside {
+			font-style:normal;
+			font-weight:400;
+			word-spacing:0;
+			fill-opacity:1;
 			font-family:"Gill Sans MT Condensed";
 			font-size:28px;
 			line-height:1.25;
