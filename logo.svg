@@ -34,7 +34,8 @@
 	</style>
 	<text
 		id="open-o"
-	
+		x="-2"
+		y="20"
 		dominant-baseline="middle"
 		text-anchor="end"
 		transform = "scale(-1,1)"
