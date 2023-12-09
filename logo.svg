@@ -5,25 +5,25 @@
 			font-family:"forte";
 			font-style:normal;
 			font-weight:400;
-			src:local('Forte'),url(https://fonts.cdnfonts.com/s/72895/Forte-Fill.woff) format('woff')
+			src:local('Forte'),url(https://fonts.cdnfonts.com/s/72895/Forte-Fill.woff)
 		}
 		@font-face {
 			font-family:"forte";
 			font-style:normal;
 			font-weight:400;
-			src:local('Forte'),url(https://fonts.cdnfonts.com/s/72895/Forte-Line.woff) format('woff')
+			src:local('Forte'),url(https://fonts.cdnfonts.com/s/72895/Forte-Line.woff)
 		}
 		@font-face{
 			font-family:"gill sans mt condensed";
 			font-style:normal;
 			font-weight:400;
-			src:local('Gill Sans MT Condensed'),url(https://fonts.cdnfonts.com/s/14143/GILC____.woff) format('woff')
+			src:local('Gill Sans MT Condensed'),url(https://fonts.cdnfonts.com/s/14143/GILC____.woff)
 		}
 		@font-face{
 			font-family:"gill sans mt condensed";
 			font-style:normal;
 			font-weight:700;
-			src:local('Gill Sans MT Condensed'),url('https://fonts.cdnfonts.com/s/14143/Gill Sans MT Condensed Bold.woff') format('woff')
+			src:local('Gill Sans MT Condensed'),url('https://fonts.cdnfonts.com/s/14143/Gill Sans MT Condensed Bold.woff')
 		}
 		text {
 			font-style:normal;
