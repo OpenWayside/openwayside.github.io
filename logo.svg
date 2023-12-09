@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg preserveAspectRatio="xMidYMid meet" width="86" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+	<style>
+		@import url("https://fonts.cdnfonts.com/css/forte");
+		@import url("https://fonts.cdnfonts.com/css/gill-sans-mt-condensed");
+		text {
+			font-style:normal;
+			font-weight:normal;
+			word-spacing:0px;
+			fill-opacity:1;
+			stroke:none;
+		}
+		#open-o {
+			font-family:Forte;
+			font-size:32px;
+			font-stretch:normal;
+			font-variant:normal;
+			font-variant-ligatures:normal;
+			font-variant-caps:normal;
+			font-variant-numeric:normal;
+			font-variant-east-asian:normal;
+			letter-spacing:0px;
+			fill:#f7b500;
+			stroke-width:0.447026;
+		}
+		#wayside {
+			font-family:Gill Sans MT Condensed;
+			font-size:28px;
+			line-height:1.25;
+			letter-spacing:-.85px;			
+			fill:#ffffff;
+			stroke-width:0.264583;
+		}
+	</style>
+	<text
+		id="open-o"
+		x="-2%"
+		y="60%"
+		transform = "scale(-1,1)"
+		dominant-baseline="middle"
+		text-anchor="end"
+		>C</text> 
+	<text
+		id="wayside"
+		x="92%"
+		y="60%"
+		dominant-baseline="middle"
+		text-anchor="end"
+		>Wayside</text>
+</svg>
