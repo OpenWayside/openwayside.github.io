@@ -56,6 +56,7 @@
 		>C</text> 
 	<text
 		id="wayside"
+		font-family="Gill Sans MT Condensed"
 		x="22"
 		y="24"
 		letter-spacing="-.85px"
