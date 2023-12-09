@@ -74,14 +74,14 @@
 			fill-opacity:1;
 		}
 		#open-o {
-			font-family:forte;
+			font-family:"Forte";
 			font-size:32px;
 			font-stretch:normal;
 			letter-spacing:0px;
 			fill:#f7b500;
 		}
 		#wayside {
-			font-family:Gill Sans MT Condensed;
+			font-family:"Gill Sans MT Condensed";
 			font-size:28px;
 			line-height:1.25;
 			letter-spacing:-.85;			
