@@ -34,10 +34,10 @@
 	</style>
 	<text
 		id="open-o"
-		x="-2%"
-		y="60%"
+	
 		dominant-baseline="middle"
 		text-anchor="end"
+		transform = "scale(-1,1)"
 		>C</text> 
 	<text
 		id="wayside"
