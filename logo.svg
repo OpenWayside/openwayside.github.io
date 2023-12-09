@@ -11,7 +11,7 @@
 			stroke:none;
 		}
 		#open-o {
-			font-family:Forte;
+			font-family:Gill Sans MT Condensed;
 			font-size:32px;
 			font-stretch:normal;
 			font-variant:normal;
@@ -34,10 +34,11 @@
 	</style>
 	<text
 		id="open-o"
-		x="0"
+		x="-24"
 		y="20"
 		dominant-baseline="middle"
 		text-anchor="start"
+		transform = "scale(-1,1)"
 		>C</text> 
 	<text
 		id="wayside"
