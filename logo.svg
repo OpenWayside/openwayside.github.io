@@ -28,7 +28,7 @@
 			font-size:28px;
 			line-height:1.25;
 			letter-spacing:-.85px;			
-			fill:#ffffff;
+			fill:#666666;
 			stroke-width:0.264583;
 		}
 	</style>
