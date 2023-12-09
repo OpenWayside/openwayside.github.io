@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg preserveAspectRatio="xMidYMid meet" width="86" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="xMidYMid meet" width="86" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1>
 	<style>
 		@font-face{
 			font-family:"forte";
@@ -39,10 +39,6 @@
 			fill:#f7b500;
 		}
 		#wayside {
-			font-style:normal;
-			font-weight:400;
-			word-spacing:0;
-			fill-opacity:1;
 			font-family:"Gill Sans MT Condensed";
 			font-size:28px;
 			line-height:1.25;
