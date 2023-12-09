@@ -14,14 +14,8 @@
 			font-family:forte;
 			font-size:32px;
 			font-stretch:normal;
-			font-variant:normal;
-			font-variant-ligatures:normal;
-			font-variant-caps:normal;
-			font-variant-numeric:normal;
-			font-variant-east-asian:normal;
 			letter-spacing:0px;
 			fill:#f7b500;
-			stroke-width:0.447026;
 		}
 		#wayside {
 			font-family:Gill Sans MT Condensed;
