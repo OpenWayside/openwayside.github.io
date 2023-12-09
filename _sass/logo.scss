@@ -5,3 +5,10 @@
 	background-size: 216px 32px;
 	background-position: left center;
 }
+
+@media (max-width: 700px) {
+	.logo {
+		width: 150px;
+		background-size: 150px 32px;
+	}
+}
