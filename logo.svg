@@ -49,16 +49,15 @@
 	<text
 		id="open-o"
 		x="-24"
-		y="20"
-		dominant-baseline="middle"
+		y="24"
 		text-anchor="start"
 		transform = "scale(-1,1)"
 		>C</text> 
 	<text
 		id="wayside"
 		x="22"
-		y="19"
-		dominant-baseline="middle"
+		y="24"
+		letter-spacing="-.85px"
 		text-anchor="start"
 		>Wayside</text>
 </svg>
